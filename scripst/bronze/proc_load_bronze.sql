@@ -30,6 +30,9 @@ Prerequisites:
     - Source CSV files must be available.
     - Appropriate BULK INSERT permissions are required.
 
+Usage Example:
+    EXEC bronze.load_bronze;
+
 ===============================================================================
 */
 
