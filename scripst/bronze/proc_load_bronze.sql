@@ -48,9 +48,9 @@ BEGIN
         @wb_start_time DATETIME,
         @wb_end_time DATETIME;
 
-    SET @wb_start_time = GETDATE();
-
     BEGIN TRY
+
+        SET @wb_start_time = GETDATE();
 
         PRINT '=========================================';
         PRINT 'Loading Bronze Layer';
